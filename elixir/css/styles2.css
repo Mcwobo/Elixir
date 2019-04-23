@@ -1,0 +1,385 @@
+body {
+    margin:0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3e3e3e;
+	background-color: #000000;
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+a {
+    text-decoration:none;
+}
+#main{
+margin:0 auto;
+padding-top:6px;
+margin-bottom:0;
+}
+#header {
+ margin:0 auto;
+ height:120px;
+ width:1003px;
+}
+#menu {
+  width:950px;
+  height:38px;
+}
+#menu a {
+  float:right;
+  font-size:15px;
+  color:#fff;
+  font-weight:bold;
+  text-decoration:none;
+  padding-left:20px;
+  padding-right:20px;
+  height:28px;
+  padding-top:10px;
+}
+#menu a:hover {
+  background:url(../images/nav_bg.gif) repeat-x;
+  color:#96ED00;
+}
+#header-Bottom {
+	margin:0;
+	height:89px;
+	background: url(../images/header_bot_bg.gif) no-repeat;
+    clear:both;
+}
+#logoBlock {
+   float:left;
+   width:255px;
+   padding-left:135px;
+   padding-top:10px;
+   height:79px;
+}
+#logoBlock h1{
+  font-weight:bold;
+ font-family: "Trebuchet MS";
+ color:#fff;
+ font-size:41px;
+  margin:0;
+  line-height:1.0em;
+}
+#logoBlock p {
+   margin:0;
+   color:#777777;
+   font-family: "Trebuchet MS";
+   line-height:1em;
+   font-size:10px;
+}
+#navBlock {
+   float:left;
+   width:587px;
+   padding-left:26px;
+   padding-top:5px;
+   height:84px;
+}
+#navBlock h3{
+  font-weight:bold;
+ font-family: "Trebuchet MS";
+ color:#81CB02;
+ font-size:16px;
+  margin:0;
+ line-height:1.5em;
+ 
+ }
+ #navBlock a {
+   margin:0;
+   float:left;
+   line-height:1.2em;
+   font-size:12px;
+   width:105px;
+   padding-right:35px;
+   text-decoration:none;
+   color:#575757;
+}
+ #navBlock a:hover {
+   text-decoration:underline;
+   color:#696969;
+}
+#mainCont {
+   width:963px;
+   clear:both;
+   margin:0 auto;
+   padding:20px;
+   padding-bottom:0;
+  
+}
+#leftCol {
+margin:0;
+float:right;
+width:366px;
+}
+#welcomeBox {
+margin:0;
+padding-right:5px;
+}
+  #welcomeBox h3 {
+   font-family: "Trebuchet MS";
+   color:rgb(163, 163, 163);
+   font-size:18px;
+   font-weight:normal;
+   margin:0;
+   line-height:normal;
+  }
+  #welcomeBox p {
+    color:rgb(150, 149, 149);
+	line-height:normal;
+	margin:0;
+	text-align:justify;
+  }
+   #welcomeBox p span {
+    color:#a09e9e;
+  }
+     #welcomeBox h5 {
+    color:#c9c8c8;
+	font-weight:bold;
+	margin:0;
+	line-height:normal;
+	font-size:11px;
+	padding-top:6px;
+  }
+  #playListTop {
+    padding-top:20px;
+	margin:0;
+	}
+	#playListTop h3 {
+	color:#81CB02;
+	font-size:15px;
+	font-weight:bold;
+	height:24px;
+	width:337px;
+	margin:0;
+	padding-left:30px;
+	padding-top:8px;
+
+}
+#playListTop h2{
+	color:#81CB02;
+
+	font-weight:bold;
+
+	width:337px;
+	margin:0;
+	padding-left:30px;
+	padding-top:8px;
+}
+    #playListBody {
+	 margin:0;
+	 border-left:solid 1px #40434A;
+	 border-right:solid 1px #40434A;
+	 height:359px;
+	 width:365px;
+	}
+	.head {
+      height:30px;
+	  width:365px;
+	}
+	 .head p {
+        font-size:14px;
+		font-weight:bold;
+		color:#DBDBDB;
+		margin:0;
+		padding-left:12px;
+		 padding-top:5px;
+		 float:left;
+		}
+		.head p.left {
+		  width:50px;
+
+		}
+		 .head p.centr {
+		  width:176px;
+          border-left:solid 1px #40434A;
+		}
+		  .head p.right {
+		  width:100px;
+		  border-left:solid 1px #40434A;
+
+		}
+	.playListDark {
+		height:20px;
+		background-color:#464646;
+		width:365px;
+		}
+		.playListDark p {
+		  color:#B3B3B3;
+		  margin:0;
+		  height:20px;
+		  float:left;
+		  padding-top:3px;
+          background-color:#464646;
+		}
+		.playListDark p.play {
+	        background:#464646 url(../images/play.gif) no-repeat 12px center;	
+         	width:62px;  
+		}
+		.playListDark p.track {
+         width:175px;
+         	 padding-left:12px; 
+		}
+		.playListDark p.artist{
+         width:104px;
+         	  padding-left:12px;
+		}
+		.playListLight {
+		height:20px;
+		width:365px;
+		}
+		.playListLight p {
+		  color:#B3B3B3;
+		  margin:0;
+		  height:20px;
+		  float:left;
+		  padding-top:3px;
+		  width:365px;
+		}
+				.playListLight p.play {
+	    
+         	width:62px;  
+		}
+		.playListLight p.track {
+         width:175px;
+		 border-left:solid 1px #40434A;
+         	  padding-left:12px;
+		}
+		.playListLight p.artist{
+         width:100px;
+		 border-left:solid 1px #40434A;
+		 padding-left:12px;
+		 }
+	 p.bot {
+       border-top:solid 1px #40434A;
+	   clear:both;
+	   margin:0;
+	   width:365px;
+	   height:1px;
+		}
+    #playListBot {
+	 background: url(../images/play_list_botbg.gif) no-repeat;	
+	 height:32px;
+	 width:367px;
+	}
+	
+  #centrCol {
+margin:0;
+float:left;
+width:400px;
+padding-left:50px;
+}
+  
+   #albmBlock {
+   padding-top:20px;
+   margin:0;
+   }
+   #albmBox, #albmBox2, #albmBox3, #albmBox4{
+
+   height:150px;
+   }
+   #albmBox4.totalheight {
+      height:100px;
+   }
+   
+   .topCont h1 {
+	 margin:0;
+	 float:left;
+	 padding:7px;
+   }
+      .topCont a {
+	 margin:0;
+	 float:left;
+	 padding-top:10px;
+	line-height:normal;
+   }
+         .topCont a.headings {
+	 font-size:20px;
+	 font-weight:normal;
+	 color:#fff;
+	 margin:0;
+   }
+     .topCont a span  {
+	 color:#fff;
+	 margin:0;
+	 font-size:17px;
+	 
+   }
+        .topCont a:hover {
+	 color:#DBDBDB;
+   }
+   .botCont {
+	 padding-top:2px;
+
+   }
+   .botCont a {
+     color:#454545;
+	 }
+	 audio{
+		 width:100px;
+	 }
+      .botCont a:hover {
+     color:#000000;
+   }
+   .botCont a.left {
+      margin: 10;
+
+	  padding-left:35px;
+   }
+      .botCont a.right {
+      margin:0;
+		 }
+ .ul li{
+	
+	display: inline-block;
+}
+
+#rightCol {
+margin:0;
+float:left;
+padding-left:7px;
+width:283px;
+}
+#videoBlock {
+height:598px;
+width:283px;
+
+
+}
+ 
+#footer {
+	height:98px;
+	clear:both;
+	margin:0 auto;
+	background: url(../images/foooter_bg.gif) repeat-x;	 
+}
+#footerMenu {
+     width:600px;
+	 margin:0 auto;
+	 clear:both;
+	 padding-top:20px;
+	 padding-bottom:10px;
+}
+#footerMenu a{
+   padding:20px;
+    font-size:15px;
+  color:#fff;
+  font-weight:bold;
+}
+#footerMenu a:hover{
+   color:#DBDBDB;
+}
+#footerMenu P {
+ margin:0;
+}
+.rights{
+color:#3E3E3E;
+text-align:center;
+}
+.rights a{
+color:#3E3E3E;
+text-decoration:none;
+}
+.rights a:hover{
+color:#ffffff;
+text-decoration:underline;
+}
